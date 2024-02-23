@@ -1,0 +1,120 @@
+body{
+    /* background-color: rgb(83, 96, 108); */
+    background-image:url(/img/wallpaperflare.com_wallpa.jpg);
+    
+}
+.calc {
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 245px;
+    margin:auto;
+    background-color: rgb(65, 63, 63);
+    border: 2px solid black;
+    border-left-color: rgb(159, 157, 157);
+    border-bottom-color: rgb(111, 111, 112);
+    box-shadow: 10px 0px 15px 3px;
+}
+
+.calc form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 20px 20px 4px 20px;
+
+}
+
+.head {
+    display: flex;
+    margin: 0px 0px 8px 0px;
+    justify-content: flex-end;
+
+}
+
+.head label {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-right: 80px;
+}
+
+.head .mirror {
+    display: flex;
+    background-color: rgb(82, 44, 44);
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    border-right-color: rgb(142, 141, 141);
+    border-top-color: rgb(96, 95, 95);
+    border-left-color: rgb(0 0 0 0.1);
+
+}
+
+.input input {
+    margin-bottom: 10px;
+    height: 60px;
+    width: 98%;
+    background-color: rgb(81, 99, 99);
+    text-align: end;
+    font-size: 40px;
+    border-radius: 7px;
+    border-right-color: rgb(190, 190, 190);
+}
+
+.row input {
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(83, 83, 82);
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(12, 12, 12);
+    border-left-color: rgb(165, 160, 160);
+    border-bottom-color: rgb(125, 119, 119);
+    box-shadow: 0px 0px 3px 1px rgb(33, 32, 32);
+    cursor: pointer;
+    
+    /* border-right: 3px solid black ;
+    border-top: 3px solid black ;
+     */
+}
+
+.row .key
+{
+    background-color: rgb(175, 33, 33);
+}
+.row .key:hover{
+    background-color: rgb(224, 62, 62);
+
+}
+
+.row .eql{
+    background-color: rgb(4, 113, 4);
+}
+.row .eql:hover{
+    background-color: rgb(17, 131, 17);
+}
+.row input:hover{
+    background-color: rgb(97, 97, 95);
+}
+.end{
+    background-color: rgb(52, 51, 51);
+    width: 110%;
+    height: 30px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0px;
+}
+.end label {
+    color: rgb(135, 133, 133);
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-right: 80px;
+    display: flex;
+    margin: 5px 0px 8px 0px;
+    justify-content:center;
+    /* color: aliceblue; */
+}

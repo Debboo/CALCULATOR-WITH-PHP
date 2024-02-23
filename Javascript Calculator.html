@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator_Diab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon/diab_icon.ico">
+</head>
+
+<body>
+    <div class="calc">
+        <form action="" method="post">
+            <div class="input">
+                <div class="head">
+
+                    <label for="inp">DIAB_CAL</label>
+                    <div class="mirror">
+
+                    </div>
+                </div>
+                <input type="text" id="inp" name="display">
+            </div>
+            <div class="row">
+                <input type="button" class="key" value="C" name="clear" onclick="display.value = '' ">
+                <input type="button" class="key" value="&leftarrow;" name="del"
+                    onclick="display.value = display.value.toString().slice(0,-1)">
+                <input type="button" value="%" name="mod" onclick="display.value +='%'">
+                <input type="button" value="/" name="/" onclick="display.value +='/'">
+
+            </div>
+            <div class="row">
+                <input type="button" value="7" name="7" onclick="display.value+='7'">
+                <input type="button" value="8" name="8" onclick="display.value+='8'">
+                <input type="button" value="9" name="9" onclick="display.value+='9'">
+                <input type="button" value="*" name="x" onclick="display.value+='*'">
+
+            </div>
+            <div class="row">
+                <input type="button" value="4" name="4" onclick="display.value+='4'">
+                <input type="button" value="5" name="5" onclick="display.value+='5'">
+                <input type="button" value="6" name="6" onclick="display.value+='6'">
+                <input type="button" value="&minus;" name="-" onclick="display.value+='-'">
+
+            </div>
+            <div class="row">
+                <input type="button" value="1" name="1" onclick="display.value +='1'">
+                <input type="button" value="2" name="2" onclick="display.value +='2'">
+                <input type="button" value="3" name="3" onclick="display.value +='3'">
+                <input type="button" value="+" name="+" onclick="display.value +='+'">
+
+            </div>
+            <div class="row">
+                <input type="button" value="0" name="0" onclick="display.value +='0'">
+                <input type="button" value="00" name="00" onclick="display.value +='00'">
+                <input type="button" value="." name="." onclick="display.value +='.'">
+                <input type="button" class="eql" value="=" name="=" onclick="display.value = eval(display.value)">
+
+            </div>
+
+            <div class="end">
+                <label for="inp">DIAB_CALCULATOR</label>
+            </div>
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
